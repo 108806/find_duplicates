@@ -120,10 +120,6 @@ public class Walker {
         }
 
         public List<String> findSingleDupes(String hash){
-//            return this.HashList.values().stream()
-//                    .filter(h -> h.equals(hash))
-//                    .map(h -> new String(this.getFile(h)))
-//                    .collect(Collectors.toList());
             ArrayList<String> results = new ArrayList<String>();
             if (this.countOcc(hash) > 1)
             {
